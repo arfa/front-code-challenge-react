@@ -11,9 +11,11 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@emotion/cache": "^11.13.1",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.7",
+    "@mui/material-nextjs": "^5.16.6",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
@@ -24,6 +26,7 @@
     "@storybook/addon-interactions": "^8.2.9",
     "@storybook/addon-links": "^8.2.9",
     "@storybook/addon-onboarding": "^8.2.9",
+    "@storybook/addon-themes": "^8.2.9",
     "@storybook/blocks": "^8.2.9",
     "@storybook/nextjs": "^8.2.9",
     "@storybook/react": "^8.2.9",
