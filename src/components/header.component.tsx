@@ -1,19 +1,14 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
+import Logo from '../app/logo.svg?url';
+import Image from 'next/image';
 
-type Props = {
-  title: string;
-};
-
-export default function Header({ title }: Props) {
+export default function Header() {
   return (
     <AppBar position='static'>
       <Toolbar>
-        <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
-          {title}
-        </Typography>
+        <Image src={Logo} alt='Valtech Logo' width={100} height={40} />
       </Toolbar>
     </AppBar>
   );

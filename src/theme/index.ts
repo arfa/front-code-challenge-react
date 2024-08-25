@@ -45,12 +45,6 @@ const theme = createTheme({
       defaultProps: {
         elevation: 0,
       },
-      styleOverrides: {
-        root: {
-          textAlign: 'center',
-          backgroundColor: 'grey.200',
-        },
-      },
     },
     MuiTypography: {
       defaultProps: {},
