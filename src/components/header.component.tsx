@@ -1,7 +1,7 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import Logo from '../app/logo.svg?url';
+import Logo from './icons/logo.svg?url';
 import Image from 'next/image';
 
 export default function Header() {

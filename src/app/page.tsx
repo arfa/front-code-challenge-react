@@ -1,7 +1,7 @@
 import { HomeCard } from '@/components/card.component';
 import styles from './page.module.css';
 import { Box, Grid, Typography } from '@mui/material';
-import HeroBanner from '@/components/home-hero.component';
+import HeroBanner from '@/components/hero-home.component';
 import homeJson from '@/data/index.json';
 
 export default function Home() {

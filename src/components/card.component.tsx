@@ -41,7 +41,7 @@ export const HomeCard = ({ backgroundAsset, title, subtitle, description, cta }:
     </CardContent>
     {cta && (
       <CardActions sx={{ position: 'relative', zIndex: 1 }}>
-        <Link href={cta.url} aria-label={cta.ariaLabel} target={cta.target}>
+        <Link href={cta.url} aria-label={cta.ariaLabel}>
           {cta.text}
         </Link>
       </CardActions>
